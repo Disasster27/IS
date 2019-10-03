@@ -6,6 +6,8 @@
 	<title>Document</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,26 +16,92 @@
 			<header class="header">
 				<div class="container header-flex">
 					<div class="header-left">
-						<a class="logo" href="#"><img class="logo-brand" src="img/logo.png" alt="logo">BRAN<span class="last-letter">D</span></a>
+						<a class="logo" href="index.html"><img class="logo-brand" src="img/logo.png" alt="logo">
+							BRAN<span class="last-letter">D</span>
+						</a>
+						<div class="search-icon">
+							<i class="fas fa-search fa-2x"></i>
+						</div>
 						<form class="header-form" action="#">
-							<div class="browse">Browse<img class="arrow" src="img/arrow_down.png" alt="logo"></div>
-							<input class="brows-text" type="text">
-							<button class="brows-batton"><img class="#" src="img/Search.png" alt="logo"></button>
+							<div class="browse">Browse<i class="arrow fas fa-sort-down"></i>
+								<div class="mlessega-box">
+								<div class="treangl"></div>
+								<div class="mega-flex">
+									<h3 class="mega-flex-heading">Women</h3>
+									<ul class="mega-menu">
+										<li><a class="mega-menu-link" href="">Dresses</a></li>
+										<li><a class="mega-menu-link" href="">Tops</a></li>
+										<li><a class="mega-menu-link" href="">Sweaters_Knits</a></li>
+										<li><a class="mega-menu-link" href="">Jackets_Coats</a></li>
+										<li><a class="mega-menu-link" href="">Blazers</a></li>
+										<li><a class="mega-menu-link" href="">Denim</a></li>
+										<li><a class="mega-menu-link" href="">Legging</a></li>
+										<li><a class="mega-menu-link" href="">Shorts</a></li>
+										<li><a class="mega-menu-link" href="">Accessories</a></li>
+									</ul>
+								</div>
+								<div class="mega-flex">
+									<h3 class="mega-flex-heading">Women</h3>
+									<ul class="mega-menu">
+										<li><a class="mega-menu-link" href="">Dresses</a></li>
+										<li><a class="mega-menu-link" href="">Tops</a></li>
+										<li><a class="mega-menu-link" href="">Sweaters_Knits</a></li>
+										<li><a class="mega-menu-link" href="">Jackets_Coats</a></li>
+										<li><a class="mega-menu-link" href="">Blazers</a></li>
+										<li><a class="mega-menu-link" href="">Denim</a></li>
+										<li><a class="mega-menu-link" href="">Legging</a></li>
+										<li><a class="mega-menu-link" href="">Shorts</a></li>
+										<li><a class="mega-menu-link" href="">Accessories</a></li>
+									</ul>
+								</div>
+								<div class="mega-flex">
+									<h3 class="mega-flex-heading">Women</h3>
+									<ul class="mega-menu">
+										<li><a class="mega-menu-link" href="">Dresses</a></li>
+										<li><a class="mega-menu-link" href="">Tops</a></li>
+										<li><a class="mega-menu-link" href="">Sweaters_Knits</a></li>
+										<li><a class="mega-menu-link" href="">Jackets_Coats</a></li>
+										<li><a class="mega-menu-link" href="">Blazers</a></li>
+										<li><a class="mega-menu-link" href="">Denim</a></li>
+										<li><a class="mega-menu-link" href="">Legging</a></li>
+										<li><a class="mega-menu-link" href="">Shorts</a></li>
+										<li><a class="mega-menu-link" href="">Accessories</a></li>
+									</ul>
+								</div>
+							</div>
+							</div>
+							<input class="brows-text" type="text" placeholder="Search for Item...">
+							<button class="brows-batton"><img src="img/Search.png" alt="logo"></button>
 						</form>
 					</div>
 					<div class="header-right">
-						<a class="cart-img" href="#"><img src="img/Forma 1.svg" alt="cart">
+						<div class="cart-div">
+							<a class="cart-img" href="#"><img src="img/Forma 1.svg" alt="cart" >
+							</a>
 							<div class="cart">
 								<div class="treangl"></div>
-								<div></div>
+								<div class="cart-up">
+										<div class="cart_product-img">
+											<img src="img/Layer%2030.jpg" alt="Product photo">
+										</div>
+										<div class="cart_product-info">
+											<p>Rebox Zane</p>
+											<p>stars **</p>
+											<p>1  x   $250</p>
+										</div>
+										<div>
+											<button class="cart_del"><i class="fas fa-times"></i></button>
+										</div>
+								</div> 
 								<div class="cart-down">
 									<p>TOTAL <span>$0</span></p>
-									<a class="cart-button" href="#">Checkout</a>
+									<a class="cart-button" href="Checkout.html">Checkout</a>
 									<a class="cart-button" href="Shopping_cart.html">Go to cart</a>
 								</div>
 							</div>
-						</a>
-						<a class="button-site my-acc" href="#">My Account<img class="arrow" src="img/arrow_down_white.png" alt="logo"></a>
+						</div>
+						<a class="button-site my-acc" href="#">My Account<i class="arrow fas fa-sort-down"></i></a><a class="my-acc-icon" href="#"><i
+								class="fas fa-user fa-2x"></i></a>
 					</div>
 				</div>
 			</header>
@@ -202,63 +270,109 @@
 
 
 			<div class="container">
-				<table>
-					<thead>
-						<tr>
-							<th colspan="2">Product Details </th>
+				<div class="product-details">
+					<table>
+						<thead>
+							<tr>
+								<th >Product Details </th>
+								<th>unite Price</th>
+								<th>Quantity </th>
+								<th>shipping </th>
+								<th>Subtotal </th>
+								<th>ACTION</th>
 
-							<th>unite Price</th>
-							<th>Quantity </th>
-							<th>shipping </th>
-							<th>Subtotal </th>
-							<th>ACTION</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td >
+									<div class="table-product-details">
+										<img src="img/Layer_44.jpg" alt="">
+										<h3>Mango People T-shirt</h3>
+										<p>Color: <span>Red</span></p>
+										<p>Size: <span>Xll</span> </p>
+									</div>
+								</td>
+								<td >
+									<p>$150</p>
+								</td>
+								<td ><input type="number" min="0"></td>
+								<td >
+									<p>FREE</p>
+								</td>
+								<td >
+									<p>$300</p>
+								</td>
+								<td ><a href="#"><img src="img/close.png" alt="#"></a></td>
+							</tr>
 
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td rowspan="2"><img src="img/Layer_43cart.png" alt=""></td>
-							<td>Mango People T-shirt</td>
-							<td rowspan="2">
-								<p>$150</p>
-							</td>
-							<td rowspan="2"><input type="number" min="0"></td>
-							<td rowspan="2">
-								<p>FREE</p>
-							</td>
-							<td rowspan="2">
-								<p>$300</p>
-							</td>
-							<td rowspan="2"><a href="#"><img src="img/close.png" alt="#"></a></td>
-						</tr>
-						<tr>
-							<td>
-								<p>Color: Red</p>
-								<p>Size: Xll </p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="container">
-				<div class="cart-batton-area">
-					<div class="cart-button">
-						<a href="#">cLEAR SHOPPING CART</a>
-					</div>
-					<div class="cart-button">
-						<a href="#">cONTINUE sHOPPING</a>
-					</div>
+						</tbody>
+					</table>
+					<table>
+						<tbody>
+							<tr>
+								<td >
+									<div class="table-product-details">
+										<img src="img/Layer_44.jpg" alt="">
+										<h3>Mango People T-shirt</h3>
+										<p>Color: <span>Red</span></p>
+										<p>Size: <span>Xll</span> </p>
+									</div>
+								</td>
+								<td >
+									<p>$150</p>
+								</td>
+								<td ><input type="number" min="0"></td>
+								<td >
+									<p>FREE</p>
+								</td>
+								<td >
+									<p>$300</p>
+								</td>
+								<td ><a href="#"><img src="img/close.png" alt="#"></a></td>
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+			
+				<div class="cart-button-area">
+					<a class="cart-button " href="#">cLEAR SHOPPING CART</a>
+					<a class="cart-button " href="#">cONTINUE sHOPPING</a>
 				</div>
 				<div class="grand-total-form">
-					<div class="shipping-adress-form"><p>Shipping Adress</p></div>
-					<div class="coupon -discount-form"><p>coupon  discount</p></div>
-					<div class="total-form"></div>
+					<div class="shipping-adress-form">
+						<h3>Shipping Adress</h3>
+						<form action="">
+							<input placeholder="Country" >
+							<input placeholder="State" >
+							<input placeholder="Postcode / Zip" >
+							<button>get a quote</button>
+						</form>
+					</div>
+					<div class="shipping-adress-form">
+						<h3>coupon  discount</h3>
+						<p>Enter your coupon code if you have one</p>
+						<form action="">
+							<input placeholder="Coupon" >
+							<button>Apply coupon</button>
+						</form>
+					</div>
+					<div class="total-form">
+						<div class="total-form-up">
+							<p>Sub total <span>$900</span></p>
+							<h3>GRAND TOTAL <span class="price-item">$900</span></h3>
+						</div>
+						<div class="total-form-down">
+							<a class="button-site  browse-product" href="">proceed to checkout</a>
+						</div>
+					</div>
 				</div>
 			</div>
 
 
 
-			<div class="container sabscribe-container">
+			<div class="sabscribe-container">
 				<div class="sabscribe">
 					<div class="sabscribe-left">
 						<div class="sabscribe-in">
