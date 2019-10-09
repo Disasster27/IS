@@ -112,7 +112,7 @@ button:focus, input:focus{
 	display: block;
 }
 .cart{
-	display: none;
+/*	display: none;*/
 	width: 262px;
 	z-index:11;
 	background-color: #ffffff;
@@ -145,15 +145,21 @@ button:focus, input:focus{
 .cart-up {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+/*	justify-content: space-between;*/
+	flex-direction: column;
 }
-/*
 .cart_product {
-	
+	width: 100%;
+	display: flex;
+/*	justify-content: space-between;*/
+	align-items: center;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ededed;
 }
-*/
 .cart_product-info {
-	margin: 0 14px;
+	height: 85px;
+	margin-left: 14px;
 }.cart_product-info p {
 	font-size: 12px;
 	margin-top: 10px;
@@ -165,11 +171,16 @@ button:focus, input:focus{
 	width: 72px;
 	height: 85px;
 }
+.cart_del-cont {
+	margin: 0 0 0 auto;
+}
+
 .cart_del {
 	width: 15px;
 	height: 15px;
 	border: 0;
 	border-radius: 50%;
+	
 	
 }
 .cart_del:hover {
@@ -182,7 +193,7 @@ button:focus, input:focus{
 	flex-wrap: wrap;
 	align-items: center;
 	height: 190px;
-	border-top: 1px solid #ededed;
+	
 }
 .cart-button{
 	height: 50px;
@@ -294,7 +305,7 @@ button:focus, input:focus{
 }
 
 											/* BANNER */
-.banner {
+/* .banner {
     height: 614px;
     background-color: #e8e8e8;
     margin-bottom: 88px;
@@ -328,7 +339,7 @@ button:focus, input:focus{
 }
 
 									/* KATEGORIES */
-.container-flex {
+/* .container-flex {
     display: flex;
     justify-content: space-between;
 }
@@ -379,7 +390,7 @@ button:focus, input:focus{
 }
 .kategories-big-right {
     position: relative;
-}
+} */
 								/* PRODUKT-BOX */
 .fetured {
     color:  #222222;
@@ -402,7 +413,7 @@ button:focus, input:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;	
-}
+} 
 									/* ITEM| */
 .item {
     width: 261px;
@@ -475,7 +486,7 @@ button:focus, input:focus{
 }
 
 								/* FUTURE-BANNER */
-.fetured-banner {
+/* .fetured-banner {
     height: 529px;
     background: url(../img/feature-banner-png.png) no-repeat,
                 url(../img/feature-banner.jpg) no-repeat #222224;
@@ -521,7 +532,7 @@ button:focus, input:focus{
 }
 .fetured-box-3 {
     background:url(../img/Forma%203.png) no-repeat 36px 48px;
-}
+} */
 
 									/* SABSCRIBE */
 .sabscribe-container {
@@ -553,6 +564,12 @@ button:focus, input:focus{
 }
 .sabsc-pl {
 	grid-column: 2/4;
+	color: #222224;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 26px;
+	letter-spacing: 0.4px;
 }
 .name-pl {
 	grid-column:2
@@ -564,6 +581,23 @@ button:focus, input:focus{
 	font-size: 16px;
 	color: #f16d7f;
 }
+.hint-com {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+.hint-com-el {
+	width: 38px;
+	height: 4px;
+	background-color: #d6d6d6;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.selected {
+	background-color: #f16d7f;
+}
+
+
 .sabscribe-right {
         width: 570px;
         height: 100%;      
@@ -691,7 +725,9 @@ button:focus, input:focus{
 	line-height: 20px;
 	text-transform: uppercase;	
 }
-.flex-main{
+
+
+/* .flex-main{
 	display: flex;
 	justify-content: space-between;
 }
@@ -822,13 +858,13 @@ button:focus, input:focus{
 	justify-content: space-between;
 	align-items: center;
 	background-color: #222224;
-}
+} */
 
 
 
 
 								/* ------------SINGLE_PAGE------------- */
-.slider {
+/* .slider {
 	width: 100%;
 	height: 777px;
 	border: 1px solid #eaeaea;
@@ -977,7 +1013,6 @@ height: 724px;
 	width: 144px;
 	height: 35px;
 	border: 1px solid #eaeaea;
-	overflow: hidden;
 	color: #bcbcbc;
 	font-family: Lato;
 	font-size: 13px;
@@ -985,11 +1020,9 @@ height: 724px;
 	line-height: 24px;
 	text-transform: uppercase;
 	position: relative;
-}
-
-.product-select-wrapper:hover {
 	cursor: pointer;
 }
+
 .product-select-wrapper::before {
 	content: "";
 	position: absolute;
@@ -1002,7 +1035,6 @@ height: 724px;
 .product-color-selected {
 	display: flex;
 	align-items: center;
-	
 }
 .product-color {
 	display: inline-block;
@@ -1014,6 +1046,11 @@ height: 724px;
 .product-color-name {
 	display: inline-block;
 }
+.product-color-info {
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+}
+
 .product-select-wrapper select,
 .product-select-wrapper input {
 	border: none;
@@ -1061,13 +1098,7 @@ height: 724px;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 72px;
-}
-
-
-
-
-
-
+} */
 
 
 
@@ -1376,7 +1407,7 @@ body {
 */
 
 
-.step {
+/* .step {
 	padding: 33px 0;
 	border-bottom: 1px solid #e8e8e8;
 	cursor: pointer;
@@ -1388,11 +1419,6 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-/*
-.none {
-	display: flex;
-}
-*/
 .step-info {
 	display: flex;
 	
@@ -1453,6 +1479,10 @@ body {
 	margin: 16px 0 23px 0;
 	padding-left: 16px;
 }
+.required {
+	color: #ff0d0d;
+	margin-bottom: 10px;
+} */
 /*
 .log-in p {
 	color: #222222;
@@ -1463,10 +1493,7 @@ body {
 	text-transform: uppercase;
 }
 */
-.required {
-	color: #ff0d0d;
-	margin-bottom: 10px;
-}
+
 
 
 /*
@@ -1479,7 +1506,7 @@ body {
 
 						/*CART TABLE*/
 
-.product-details {
+/* .product-details {
 	margin-top: 90px;
 	margin-bottom: 45px;
 }
@@ -1495,8 +1522,8 @@ td input{
 	   
 }
 
-th,
- td{
+th, */
+ /* td{
 	border-bottom: 1px solid #eaeaea;
 	width: 162px;
 	height: 12px;
@@ -1518,7 +1545,6 @@ th:first-child {
 .table-product-details {
 	display: inline-block;
 	width: 100%;
-/*	padding-top: 13px;*/
 	font-size: 13px;
 	font-weight: 300;
 	line-height: 20px;
@@ -1529,12 +1555,8 @@ th:first-child {
 .table-product-details img {
 	float: left;
 	margin-right: 21px;
-}
-
-
-
-
-
+} */
+/* 
 .grand-total-form h3{
 	color: #222222;
 	font-family: Lato;
@@ -1549,9 +1571,9 @@ th:first-child {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 63px;
-}
+} */
 
-.grand-total-form {
+/* .grand-total-form {
 	
 	display: flex;
 	justify-content: space-between;
@@ -1582,9 +1604,9 @@ th:first-child {
 	border: 1px solid #eaeaea;
 	background-color: #ffffff;
 	cursor: pointer;
-}
+} */
 
-.shipping-adress-form {
+/* .shipping-adress-form {
 	display: flex;
 	flex-direction: column;
 	width: 355px;
@@ -1628,7 +1650,7 @@ th:first-child {
 
 .checkout-box__link {
 	display: block;
-}
+} */
 
 
 

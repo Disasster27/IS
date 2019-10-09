@@ -1,0 +1,70 @@
+                            /*----CHECKOUT----*/
+                            
+.step {
+    padding: 33px 0;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.step + h3 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.step-info {
+    display: none; 
+}
+.checkout-button{
+    background-color: #fff;
+    width: 180px;
+    margin-top: 23px;    
+}
+.checkout-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 39px 0 0 35px;    
+}
+.checkout-p{
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px
+}
+.checkout-p2{
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.easy {
+    margin-bottom: 15px;
+}
+.easy::before {
+    content: "≫";
+    margin-right: 4px;
+}
+.unregisrer {
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+}
+.unregisrer label + label {
+    margin-top: 16px;
+}
+.log-in input {
+    max-width: 390px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin: 16px 0 23px 0;
+    padding-left: 16px;
+}
+.required {
+    color: #ff0d0d;
+    margin-bottom: 10px;
+}

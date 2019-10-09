@@ -1,0 +1,158 @@
+                                        /* BANNER */
+.banner {
+    height: 614px;
+    background-color: #e8e8e8;
+    margin-bottom: 88px;
+}
+.banner-blokc {
+    height: 100%;
+    background: url(../img/banner.jpg) 0 -51px;
+}
+.banner-text {
+    margin-top: 224px;
+    border-left: 12px solid #f16d7f;
+    float: left;
+    padding-left: 12px;
+}
+.the-brand {
+    color: #222222;
+    font-size: 59.95px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.text-fashion {
+    color: #222222;
+    font-size: 39.96px;
+    font-weight: 900;
+    line-height: 31px;
+}
+.rose-word {
+    color: #f16d7f;
+}
+
+                                         /* KATEGORIES */
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.kategories {
+    height: 100%;
+    max-width: 100%;
+    margin-right: 15px;
+}
+.kategories:last-of-type{
+    margin-right: 0
+}
+.kategories-big {
+    background-color: antiquewhite;
+    margin: 20px 0;
+}
+.kategories-big-left {
+    position: relative;
+}
+.kategories-img{
+    width: 100%;
+}
+.offer {
+    height: 82px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 26px;
+    padding: 16px 19px;
+    color:  #222222;
+    font-size: 18px;
+    font-weight: 900;   
+}
+.rose-word-offer {
+    color:  #f16d7f;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+}
+.kategories-small {
+    background-color: #dadad2;
+    margin: 20px 0;
+}
+.kategories-small-left {
+    position: relative;
+}
+.kategories-small-right {
+    background: url(../img/Layer%2032blond.jpg);
+    position: relative;
+}
+.kategories-big-right {
+    position: relative;
+}
+                                /* PRODUKT-BOX */
+.fetured {
+    color:  #222222;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+.fetured-p {
+    color:  #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+}
+.product-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;	
+}
+							  /* FUTURE-BANNER */
+.fetured-banner {
+    height: 529px;
+    background: url(../img/feature-banner-png.png) no-repeat,
+                url(../img/feature-banner.jpg) no-repeat #222224;
+    display: flex;
+    justify-content: space-between;
+}
+.fetured-offer {
+    color:  #ffffff;
+    font-size: 53.62px;
+    font-weight: 700;
+    text-align: left;
+    padding: 146px 0 0 39px;
+}
+.fetured-bbox {
+    width: 373px;
+    height: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fetured-box {
+    width: 373px; 
+    padding: 55px 0 0 114px;
+}
+.fetured-box-1 {
+    background: url(../img/Forma%201.png) no-repeat 36px 48px;
+}
+.feture-box-h {
+    color:  #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.feture-box-p {
+    color:  #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+.fetured-box-2 {
+    background: url(../img/Forma%202.png) no-repeat 36px 48px;
+}
+.fetured-box-3 {
+    background:url(../img/Forma%203.png) no-repeat 36px 48px;
+}

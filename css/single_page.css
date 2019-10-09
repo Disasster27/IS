@@ -1,0 +1,213 @@
+                    /*------------SINGLE_PAGE------------- */
+.slider {
+    width: 100%;
+    height: 777px;
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.arrow-slider-l,
+.arrow-slider-r {
+    width: 47px;
+    height: 47px;
+    background-color: #2a2a2a;
+    opacity: 0.1;
+    position: relative;
+}
+.arrow-slider-l::before {
+    content: "";
+    position: absolute;
+    margin-top: -7px;
+    top: 50%;
+    left: 21px;
+    height: 14px;
+    width: 8px;
+    background: url(../img/arrow_slider_l.png);
+}
+.arrow-slider-r::before {
+    content: "";
+    position: absolute;
+    margin-top: -7px;
+    top: 50%;
+    right: 21px;
+    height: 14px;
+    width: 8px;
+    background: url(../img/arrow_slider_r.png);
+}
+.photo-slider {
+    width: 597px;
+height: 724px;
+}
+.description-container {
+    width: 1140px;
+    margin: -85px auto 120px;
+}
+.description {
+    width: 1141px;
+    height: 730px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    position: relative;
+}
+.title {
+    margin: 0 auto 63px;
+    padding-top: 73px;
+    width: 618px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 43px;
+}
+
+.title-collection {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f16d7f;
+    display: block;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+.title-collection::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    margin-left: -31.5px;
+    width: 63px;
+    border-bottom: 3px solid #ef5b70;
+}
+.name-item {
+    color: #4d4d4d;
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 17px 0 67px;
+}
+.about {
+    text-align: center;
+    color: #5e5e5e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.hint {
+    display: flex;
+    margin: 28px 0 37px;
+    
+}
+
+.hint-p {
+    color: #b9b9b9;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 44px
+}
+.hint-a {
+    color: #2f2f2f;
+}
+.price-item {
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.choose {
+    display: flex;
+    justify-content: space-around;
+    width: 618px;
+    margin: 0 auto;
+}
+.product-select-wrapper {
+    width: 144px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+.product-select-wrapper::before {
+    content: "";
+    position: absolute;
+    right: 9px;
+    top: 15px;
+    background: url(../img/arrow_down_select.png);	
+    width: 9px;
+    height: 5px;
+}
+.product-color-selected {
+    display: flex;
+    align-items: center;
+}
+.product-color {
+    display: inline-block;
+    margin: 11px 13px;
+    width: 12px;
+    height: 12px;
+    background-color: #ef5b70;
+}
+.product-color-name {
+    display: inline-block;
+}
+.product-color-info {
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+}
+.product-select-wrapper select,
+.product-select-wrapper input {
+    border: none;
+    width: inherit;
+    height: inherit;
+    padding-left: 15px;
+    color: #bcbcbc;
+    -webkit-appearance: none;
+    outline: none;
+}
+.add-batton {
+    width: 537px;
+    height: 55px;
+    border: 1px solid #ef5b70;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    margin: 30px auto;
+    transition: background-color .5s, border .5s, color .5s;	
+}
+.add-batton:hover{
+    background-color: #ef5b70;
+}
+.add-batton a{
+    display: flex;
+    justify-content: center;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+}
+.add-batton img {
+    margin-right: 15px;
+}
+.add-batton:hover a{
+    color: #fff;
+}
+.may-like {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}

@@ -1,0 +1,133 @@
+                    /* -------PRODUCT------- */
+.flex-main{
+	display: flex;
+	justify-content: space-between;
+}
+.nav-left{
+	margin-top: 60px;
+	width: 243px;
+}
+.items-found {
+	display: flex;
+	flex-direction: column;  
+}
+.form-area {
+	height: 110px;
+	margin: 65px 0 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.trend-name {
+	overflow: hidden;
+	margin-top: 25px;
+ }	
+
+.trend-name ul {
+	list-style: none;
+}
+
+.trend-name ul li {
+	margin: 0 5px;
+	display: inline;
+}
+
+.trend-name ul li:after {
+	margin-left: 15px;
+	content: "|";
+	color: #dfdfdf;
+}
+
+.name-form {
+	color: #6f6e6e;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.checkbox {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+
+.form-checkbox {
+	position: absolute;
+  	z-index: -1;
+  	opacity: 0;
+}
+
+.sort-area {
+	width: 846px;
+	height: 50px;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.new-select-style-wpandyou {
+	display: flex;
+/*    overflow: hidden; */
+    height: 30px;
+}
+.new-select-style-wpandyou select,
+.sort-by {
+    background-color: #fff;
+    height: 30px;
+    padding: 0 20px 0 10px;
+	margin-right: 10px;
+    color: #6f6e6e;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	border: 1px solid #ebebeb;
+}
+.sort-by {
+	padding: 0 10px;
+	margin-right: 0;
+	line-height: 30px;
+	display: inline-block;
+}
+
+.items-article {
+	width: 846px;
+}
+
+.padge-found {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.padge-namber {
+	width: 261px;
+	height: 44px;
+	border-radius: 3px;
+	border: 1px solid #ebebeb;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+}
+.prev,
+.next {
+	margin: 15px;
+	height: 13px;
+	width: 8px;
+}
+
+.fetured-bbox-item-container{
+	width: 100%;
+	height: 341px;
+    margin: 0 auto;
+    margin-top: 97px;
+	background-color:  #222224;
+}
+
+.fetured-bbox-item{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222224;
+}
