@@ -28,5 +28,75 @@
 		"color" : "[ red, green, yellow ]",
 		"size" : "[ xs, s, l, xl, xxl, xxxl ]",
 		"image" : "img/Layer7.jpg"
+	},
+	"12342" : {
+		"name" : "Блузка",
+		"price" : 352,
+		"description" : "Какое-то длинное описание какого-то платья! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "cotton",
+		"designer" : "BINBURHAN",
+		"color" : "[ red, green, yellow, blue, brown ]",
+		"size" : "[ xs, s, xl, xxl ]",
+		"image" : "img/Layer2.jpg"
+	},
+	"12341" : {
+		"name" : "Футболка",
+		"price" : 199,
+		"description" : "Какое-то длинное описание какой-то кофты! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "Silkc",
+		"designer" : "qvrtttr",
+		"color" : "[ red, blac, yellow, brown ]",
+		"size" : "[ xs, s, l, xl, xxl ]",
+		"image" : "img/Layer1.jpg"
+	},
+	"12340" : {
+		"name" : "Блейзер",
+		"price" : 372,
+		"description" : "Какое-то длинное описание каких-то штанов! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "flis",
+		"designer" : "shtani",
+		"color" : "[ red, green, yellow ]",
+		"size" : "[ xs, s, l, xl, xxl, xxxl ]",
+		"image" : "img/Layer7.jpg"
+	},
+	"12339" : {
+		"name" : "Штаны",
+		"price" : 172,
+		"description" : "Какое-то длинное описание каких-то штанов! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "flis",
+		"designer" : "shtani",
+		"color" : "[ red, green, yellow ]",
+		"size" : "[ xs, s, l, xl, xxl, xxxl ]",
+		"image" : "img/Layer7.jpg"
+	},
+	"12338" : {
+		"name" : "Блузка",
+		"price" : 352,
+		"description" : "Какое-то длинное описание какого-то платья! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "cotton",
+		"designer" : "BINBURHAN",
+		"color" : "[ red, green, yellow, blue, brown ]",
+		"size" : "[ xs, s, xl, xxl ]",
+		"image" : "img/Layer2.jpg"
+	},
+	"12337" : {
+		"name" : "Футболка",
+		"price" : 199,
+		"description" : "Какое-то длинное описание какой-то кофты! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "Silkc",
+		"designer" : "qvrtttr",
+		"color" : "[ red, blac, yellow, brown ]",
+		"size" : "[ xs, s, l, xl, xxl ]",
+		"image" : "img/Layer1.jpg"
+	},
+	"12336" : {
+		"name" : "Блейзер",
+		"price" : 372,
+		"description" : "Какое-то длинное описание каких-то штанов! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut ipsa alias labore, in, nesciunt doloribus exercitationem voluptates quas sit incidunt obcaecati nihil ratione dicta veritatis praesentium. Quae minus, saepe.",
+		"material" : "flis",
+		"designer" : "shtani",
+		"color" : "[ red, green, yellow ]",
+		"size" : "[ xs, s, l, xl, xxl, xxxl ]",
+		"image" : "img/Layer7.jpg"
 	}
 }
