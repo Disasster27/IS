@@ -38,8 +38,12 @@
 }
 .photo-slider {
     width: 597px;
-height: 724px;
+    height: 724px;
 }
+.photo-slider img {
+    width: 100%;
+}
+
 .description-container {
     width: 1140px;
     margin: -85px auto 120px;
