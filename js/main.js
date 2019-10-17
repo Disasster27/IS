@@ -1,47 +1,6 @@
-/*let thumb ;
-let rangeMax = document.querySelectorAll(".price_slider-max");
-let span = document.getElementById( "iv" )
-span.innerHTML=rangeMax[0].value;
-rangeMax[0].oninput = obj;
-function obj () {
-	span.innerHTML=this.value;
-};
-
-
-
-let inputs = document.querySelectorAll('.slide-container' );
-inputs[0].addEventListener( "click", (e) => {
-	console.log( e.target)
-let ball = document.querySelector( ".range-min" );*/
-
-
-
-
-
-/*let step = document.querySelector( ".step" );
-step.addEventListener( 'click', (e) => {
-	let stepInfo = document.querySelector( ".step-info" );
-	stepInfo.classList.toggle( "di-none" );})
-let hintComEl = document.querySelectorAll( ".hint-com-el" );
-function tog ( el ) {
-	el.addEventListener( 'click', ( e ) => {
-		hintComEl.forEach( ( i ) => { if ( i.classList.contains( "selected" ) )  { i.classList.toggle( "selected" ) } } )
-		el.classList.toggle( "selected" );
-	} )
-}
-hintComEl.forEach( tog );*/
-
-
-// let productColorSelected = document.querySelector( ".product-color-selected" );
-// let productColorInfo = document.querySelector( ".product-color-info" );
-// productColorSelected.addEventListener( 'click', ( e ) => {
-// 	productColorInfo.classList.toggle( "di-none" );
-// } );
-	
 let url = 'https://api.myjson.com/bins/19478a';
 
 const productBox = document.querySelector( '.product-box' );
-// const mayLike = document.querySelector( '.may-like' );
 
 class List {
 	constructor( url ){
@@ -97,8 +56,6 @@ class ProductsList extends List {
 		this.count = count;
 		this.cart = cart;
 		this.getJson( url ).then( data =>  this.collectData ( data ) );
-		// this.cartProduct = {};
-		// this.priceTotal = 0;
 	}
 
 	addEvent() {
@@ -111,13 +68,6 @@ class ProductsList extends List {
 				}
 			}
 		} ) ;
-		// let cartUp = document.querySelector( '.cart-up' );
-		// cartUp.addEventListener( 'click', e => {
-		// 	if ( e.target.classList.contains( 'cart_del' ) ) {
-		// 		this.removeProduct( e.target );
-		// 	}
-			
-		// }  )
 	}
 
 	renderProduct( el ) {
@@ -134,93 +84,6 @@ class ProductsList extends List {
 		</div>
 	</div>`;
 	}
-
-	// renderCart( article ) {
-
-	// 	let prod = this.goods.find( el => el.prop === article );
-	// 	return `
-	// 	<div class="cart_product">
-	// 		<div class="cart_product-img">
-	// 			<a href="Single_page.html"><img src="${ prod.image }" alt="Product photo"></a>
-	// 		</div>
-	// 		<div class="cart_product-info">
-	// 			<p>${ prod.name }</p>
-	// 			<p>stars **</p>
-	// 			<p><span class="quantity">${ this.cartProduct[article] }</span>  x   <span>$ ${ prod.price }</span></p>
-	// 		</div>
-	// 		<div class="cart_del" data-id="${prod.prop}">
-			
-	// 		</div>
-	// 	</div>`
-	// }
-
-	// removeProduct( element ) {
-	// 	let productId = +element.dataset['id'];
-	// 	for( let prod in this.cartProduct ){
-	// 		if ( prod == productId ) {
-	// 			if ( this.cartProduct[prod] > 1 ){
-	// 				this.cartProduct[prod]--;
-	// 				this.addQuantity(prod);
-	// 				this.minTotal(prod);
-	// 				localStorage.setItem( 'product', JSON.stringify( this.cartProduct ) );
-	// 			} else {
-	// 				delete this.cartProduct[prod];
-	// 				this.minTotal(prod);
-	// 				localStorage.setItem( 'product', JSON.stringify( this.cartProduct ) );
-	// 				document.querySelector( `[data-id="${productId}"]` ).closest('.cart_product').remove();
-	// 			}
-	// 		} 
-	// 	}
-	// }
-
-	// addToCart( article ) {
-	// 	if ( this.cartProduct[article] ) {
-	// 		this.cartProduct[article]++;
-	// 		this.addQuantity( article )
-	// 	} else {
-	// 		this.cartProduct[article] = 1;
-	// 		let cartUp = document.querySelector( '.cart-up' );
-	// 		cartUp.insertAdjacentHTML( 'beforeend', this.renderCart( article ) );
-	// 	}
-	// 	this.countTotal( article )
-	// 	localStorage.setItem( 'product', JSON.stringify( this.cartProduct ) );
-	// }
-
-	// countTotal( article ) {
-	// 	if ( !this.cartProduct.total ) {
-	// 		this.cartProduct.total = 0;
-	// 	}
-	// 	let prod = this.goods.find( el => el.prop === article );
-	// 	this.cartProduct.total += prod.price ;
-	// 	document.querySelector( '.price-total' ).textContent = `$ ${ this.cartProduct.total }`;
-		
-	// 	console.log(this.cartProduct)
-	// }
-
-	// minTotal( article ) {
-	// 	let prod = this.goods.find( el => el.prop === article );
-	// 	this.cartProduct.total -= prod.price ;
-	// 	document.querySelector( '.price-total' ).textContent = `$ ${ this.cartProduct.total }`;
-		
-	// 	console.log(this.cartProduct)
-	// }
-
-	// addQuantity( article ) {
-	// 	document.querySelector( `[data-id="${article}"]` ).closest('.cart_product').querySelector( ".quantity" ).textContent = this.cartProduct[article] ;
-	// }
-
-	// checkCart() {
-	// 	if ( JSON.parse( localStorage.getItem( 'product' ) ) ) {
-	// 		this.cartProduct = JSON.parse( localStorage.getItem( 'product' ) );
-	// 	}
-	// 	if ( this.cartProduct ) {
-	// 		for( let prop in this.cartProduct ) {
-	// 			let cartUp = document.querySelector( '.cart-up' );
-	// 			cartUp.insertAdjacentHTML( 'beforeend', this.renderCart( prop ) );
-	// 			document.querySelector( '.price-total' ).textContent = `$ ${ this.cartProduct.total }`;
-	// 		}
-	// 	}
-	// }
 }
 
 
@@ -230,9 +93,6 @@ class CartList extends List {
 		this.cartProduct = {};
 		this.priceTotal = 0;
 		this.prodEl = [];
-		// this.checkCart();
-		// this.product = [];
-		// this.checkCart();
 	}
 
 	addEvent() {
@@ -250,7 +110,7 @@ class CartList extends List {
 	}
 
 	renderCart( article ) {
-		let prod = this.prodEl.find( el => el.prop === article );
+		let prod = this.goods.find( el => el.prop === article );
 		return `
 		<div class="cart_product">
 			<div class="cart_product-img">

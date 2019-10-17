@@ -13,7 +13,7 @@
     text-transform: uppercase;
 }
 .step-info {
-    display: none; 
+    /* display: none;  */
 }
 .checkout-button{
     background-color: #fff;
