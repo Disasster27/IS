@@ -214,7 +214,6 @@ function givCount () {
 	} else if (  getPathname ( 'Product.html' ) ) { 
 		new ProductsList( url, 9, cart );
 	}  else {
-		new ProductsList( url, 8, cart );
 		cart.checkCart()
 	}
 } 
