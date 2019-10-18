@@ -209,7 +209,7 @@ function givCount () {
 	let cart = new CartList();
 	if (  getPathname ( 'Single_page.html' ) ) {
 		new ProductsList( url, 4, cart );
-	} else if ( getPathname ( 'index.html' ) ) {
+	} else if ( getPathname ( 'index.html' || '' ) ) {
 		new ProductsList( url, 8, cart );
 	} else if (  getPathname ( 'Product.html' ) ) { 
 		new ProductsList( url, 9, cart );
