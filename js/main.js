@@ -219,3 +219,4 @@ function givCount () {
 } 
 
 givCount()
+console.log(window.location.pathname)
